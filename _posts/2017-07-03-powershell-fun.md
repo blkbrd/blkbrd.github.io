@@ -24,4 +24,4 @@ $events.count</code> </p>
 </blockquote>
 
 ## Drivers
-<blockquote><p><code>Get-WindowsDriver -online -all</code> </blockquote></p>
+<blockquote><p><code>Get-WindowsDriver -online -all</code> </p></blockquote>
