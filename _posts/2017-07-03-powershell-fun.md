@@ -5,7 +5,8 @@ date: 2017-07-03
 ---
 # Here are some fun powershell commands for gathering artifacts when you can't touch a computer remotely
 
-## Search Autostart
+## Autostart
+<p> look for some autostart locations </p>
 <blockquote><p><code>get-cimInstance win32_startupCommand | Select-Object name, command, location, user | format-list</code></p>
 </blockquote>
 
@@ -24,6 +25,7 @@ $events.count</code></p>
 </blockquote>
 
 ## Drivers
+<p> get loaded drivers </p>
 <blockquote><p><code>Get-WindowsDriver -online -all </code></p>
 </blockquote>
 
@@ -41,4 +43,8 @@ $events.count</code></p>
 
 ## Process
 <blockquote><p><code>Get-Process | Select-Object name, id, productversion, company</code></p>
+</blockquote>
+
+## Outputting to file
+<blockquote><p><code> | Out-FIle -filePath &lt;path&gt; $env:Computer.txt (-append) </code></p> 
 </blockquote>
