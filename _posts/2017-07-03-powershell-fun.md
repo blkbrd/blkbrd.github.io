@@ -46,5 +46,5 @@ $events.count</code></p>
 </blockquote>
 
 ## Outputting to file
-<blockquote><p><code> | Out-File -filePath &lt;path&gt; $env:Computer.txt (-append) </code></p> 
+<blockquote><p><code> ..... | Out-File -filePath &lt;path&gt; $env:Computer.txt (-append) </code></p> 
 </blockquote>
