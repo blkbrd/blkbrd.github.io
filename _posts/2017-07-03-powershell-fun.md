@@ -24,11 +24,11 @@ $events.count</code></p>
 </blockquote>
 
 ## Drivers
-<blockquote><p><code>Get-WindowsDriver -online -all</code></p>
+<blockquote><p><code>Get-WindowsDriver -online -all </code></p>
 </blockquote>
 
 ## Directory Walk
-<blockquote><p><code>Get-ChildItem -path <path> -recurse -force</code></p>
+<blockquote><p><code>Get-ChildItem -path <path> -recurse -force </code></p>
 </blockquote>
 
 ## Users
