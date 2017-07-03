@@ -9,5 +9,5 @@ date: 2017-07-03
 ## Search Autostart
 <blockquote><p> get-cimInstance win32_startupCommand | Select-Object name, command, location, user | format-list</p></blockquote>
 ## Logs
-`$yesterday = (Get-Date) - (New-TimeSpan -Days 1)
-Get-WinEvent -logname "Windows Powershell" | Where-Object {$_.TimeCreated -ge $yesterday}` 
+<blockquote><p> `$yesterday = (Get-Date) - (New-TimeSpan -Days 1)
+Get-WinEvent -logname "Windows Powershell" | Where-Object {$_.TimeCreated -ge $yesterday}` </blockquote></p>
