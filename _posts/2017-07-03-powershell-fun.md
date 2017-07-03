@@ -13,7 +13,8 @@ date: 2017-07-03
 	</ul>
 </nav>
 # Powershell
-### How to gather some basic artifactsa when you can't query remotely
+### How to gather some basic artifacts when you can't query remotely
+</p>
 
 ## Autostart
 <p> look for some autostart locations </p>
