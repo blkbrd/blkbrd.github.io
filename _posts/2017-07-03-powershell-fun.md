@@ -6,7 +6,7 @@ date: 2017-07-03
 
 # Powershell
 ### How to gather some basic artifacts when you can't query remotely
-<p>
+<p></p>
 
 ## Autostart
 <p> look for some autostart locations </p>
