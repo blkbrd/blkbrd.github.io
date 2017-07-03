@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Lillian Warner, powershell info 2"
+title: "Gathering Artifacts"
 date: 2017-07-03
 ---
 <nav>
@@ -12,7 +12,8 @@ date: 2017-07-03
 		<li><a href="/contact">Contact Me</a></li>
 	</ul>
 </nav>
-# Here are some fun powershell commands for gathering artifacts when you can't touch a computer remotely
+# Powershell
+### How to gather some basic artifactsa when you can't query remotely
 
 ## Autostart
 <p> look for some autostart locations </p>
