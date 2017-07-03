@@ -29,16 +29,16 @@ $events.count</code> </p>
 
 ## Directory Walk
 <blockquote><p><code> Get-ChildItem -path <path> -recurse -force
-</code></p><blockquote>
+</code></p></blockquote>
 
 ## Users
 <blockquote><p><code>net user
-</code></p><blockquote>
+</code></p></blockquote>
 
 ## Network
 <blockquote><p><code>netstat.exe -ano
-</code></p><blockquote>
+</code></p></blockquote>
 
 ## Process
 <blockquote><p><code>Get-Process | Select-Object name, id, productversion, company
-</code></p><blockquote>
+</code></p></blockquote>
