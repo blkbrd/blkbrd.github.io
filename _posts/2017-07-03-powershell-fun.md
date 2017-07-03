@@ -11,16 +11,19 @@ date: 2017-07-03
 </p></blockquote>
 ## Logs
 <p>get log from the last day, i think</p>
-<blockquote><p> `$yesterday = (Get-Date) - (New-TimeSpan -Days 1)
-Get-WinEvent -logname "Windows Powershell" | Where-Object {$_.TimeCreated -ge $yesterday}` 
+<blockquote><p> `$yesterday = (Get-Date) - (New-TimeSpan -Days 1)`
+`Get-WinEvent -logname "Windows Powershell" | Where-Object {$_.TimeCreated -ge $yesterday}` 
 </blockquote></p>
+
 <p>count the number of events</p>
 <blockquote><p>
 `$events = get-winEvent -Logname "Windows Powershell"
 $events.count`
 </blockquote></p>
+
 <blockquote><p>
 `.....| Select-Object -First 100`
 </blockquote></p>
+
 ## Drivers
 <blockquote><p>`Get-WindowsDriver -online -all` </blockquote></p>
