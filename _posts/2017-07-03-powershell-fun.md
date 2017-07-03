@@ -28,7 +28,7 @@ $events.count</code></p>
 </blockquote>
 
 ## Directory Walk
-<blockquote><p><code>Get-ChildItem -path <path> -recurse -force </code></p>
+<blockquote><p><code>Get-ChildItem -path &lt;path&gt; -recurse -force </code></p>
 </blockquote>
 
 ## Users
