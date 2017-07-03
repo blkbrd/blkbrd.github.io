@@ -3,7 +3,7 @@ layout: post
 title: "Lillian Warner, powershell info 2"
 date: 2017-07-03
 ---
-# Here are some fun powershell commands for when you can't touch a computer remotely
+# Here are some fun powershell commands for gathering artifacts when you can't touch a computer remotely
 
 ## Search Autostart
 <blockquote><p> <code>get-cimInstance win32_startupCommand | Select-Object name, command, location, user | format-list</code> </p>
@@ -24,4 +24,21 @@ $events.count</code> </p>
 </blockquote>
 
 ## Drivers
-<blockquote><p><code>Get-WindowsDriver -online -all</code> </p></blockquote>
+<blockquote><p><code>Get-WindowsDriver -online -all
+</code></p></blockquote>
+
+## Directory Walk
+<blockquote><p><code> Get-ChildItem -path <path> -recurse -force
+</p></code><blockquote>
+
+## Users
+<blockquote><p><code>net user
+</p></code><blockquote>
+
+## Network
+<blockquote><p><code>netstat.exe -ano
+</p></code><blockquote>
+
+## Process
+<blockquote><p><code>Get-Process | Select-Object name, id, productversion, company
+</p></code><blockquote>
