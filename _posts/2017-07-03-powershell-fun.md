@@ -14,7 +14,7 @@ date: 2017-07-03
 </blockquote>
 
 ## Logs
-<p>get log from the last day, i think</p>
+<p>get log from the last day</p>
 <blockquote><p><code>$yesterday = (Get-Date) - (New-TimeSpan -Days 1) 
 Get-WinEvent -logname "Windows Powershell" | Where-Object {$_.TimeCreated -ge $yesterday} </code></p>
 </blockquote>
