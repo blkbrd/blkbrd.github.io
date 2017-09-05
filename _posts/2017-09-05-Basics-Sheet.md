@@ -182,69 +182,91 @@ Here is a formatted list of basic commands. I used these as I was learning how t
 <strong>
 	<li><code>root@kl~# chgrp </code></li>
 </strong>
-			<ul>
-				<li>(change group ownership)</li>
-			</ul>	
+		<ul>
+			<li>(change group ownership)</li>
+		</ul>	
 <strong>
 	<li><code>root@kl~# chmod </code></li>
 </strong>	
-			<ul>
-				<li>(change access permissions)</li>
-			</ul> 
+		<ul>
+			<li>(change access permissions)</li>
+		</ul> 
 <strong>
 	<li><code>root@kl~# chown </code></li>
 </strong>	
-			<ul>
-				<li>(change file owner and group)</li>
-			</ul>	
+		<ul>
+			<li>(change file owner and group)</li>
+		</ul>	
 <strong>
 	<li><code>root@kl~# groupadd </code></li>
 </strong>	
-			<ul>
-				<li>(add a user to a security group)</li>
-			</ul>	
+		<ul>
+			<li>(add a user to a security group)</li>
+		</ul>	
 <strong>
 	<li><code>root@kl~# passwd </code></li>
 </strong>	
-			<ul>
-				<li>(modify user password)</li>
-			</ul>	
+		<ul>
+			<li>(modify user password)</li>
+		</ul>	
 <strong>
 	<li><code>root@kl~# useradd </code></li>
 </strong>	
-			<ul>
-				<li>(create new users)</li>
-			</ul>	
+		<ul>
+			<li>(create new users)</li>
+		</ul>	
 <strong>
 	<li><code>root@kl~# usermod </code></li>
 </strong>	
-			<ul>
-				<li>(modify user account)</li>
-			</ul>	
+		<ul>
+			<li>(modify user account)</li>
+		</ul>	
 <strong>
 	<li><code>root@kl~# users </code></li>
 </strong>	
-			<ul>
-				<li>(list logged in users)</li>
-			</ul>
+		<ul>
+			<li>(list logged in users)</li>
+		</ul>
 </ul>
 
 <h2>Networks</h2>
-root@kl~# curl (grab webpages)
-root@kl~# dig (DNS lookup)
-root@kl~# ifconfig
-root@kl~# netstat -ano/-plant/-uplant
-(networking connections)
-root@kl~# nslookup
- (query name servers)
-root@kl~# ping
-root@kl~# ssh
-root@kl~# traceroute
-root@kl~# wget 
-(get web pages or files)
+<strong>
+	<li><code>root@kl~# curl </code></li>
+</strong>
+		<ul>
+		<li>(grab webpages)</li>
+		</ul>
+<strong>
+	<li><code>root@kl~# dig </code></li>
+</strong>
+		<ul>
+		<li>(DNS lookup)</li>
+		</ul>
+<strong>
+	<li><code>root@kl~# ifconfig </code></li>
+	<li><code>root@kl~# netstat -ano/-plant/-uplant </code></li>
+</strong>
+		<ul>
+		<li>(networking connections)</li>
+		</ul>
+<strong>
+	<li><code>root@kl~# nslookup </code></li>
+</strong>
+		<ul>
+			<li>(query name servers)</li>
+		</ul>
+<strong>
+	<li><code>root@kl~# ping </code></li>
+	<li><code>root@kl~# ssh </code></li>
+	<li><code>root@kl~# traceroute </code></li>
+	<li><code>root@kl~# wget </code></li>
+</strong>
+		<ul>
+			<li>(get web pages or files)</li>
+		</ul>
  
  
-Reconnaissance
+<h2>Reconnaissance<h2>
 Discover target’s IP/FQDN domain
 nslookup <domain>
 nslookup <ip>
