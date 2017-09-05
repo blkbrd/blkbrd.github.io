@@ -230,6 +230,7 @@ Here is a formatted list of basic commands. I used these as I was learning how t
 </ul>
 
 <h2>Networks</h2>
+<ul>
 <strong>
 	<li><code>root@kl~# curl </code></li>
 </strong>
@@ -264,8 +265,8 @@ Here is a formatted list of basic commands. I used these as I was learning how t
 		<ul>
 			<li>(get web pages or files)</li>
 		</ul>
- 
- 
+ </ul>
+ <h1> please excuse my mess...still formatting. Had to go! </h1>
 <h2>Reconnaissance<h2>
 Discover target’s IP/FQDN domain
 nslookup <domain>
