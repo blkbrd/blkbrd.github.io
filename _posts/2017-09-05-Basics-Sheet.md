@@ -117,7 +117,7 @@ Here is a formatted list of basic commands. I used these as I was learning how t
 	</strong>
 		<ul>
 			<li>(display output one screen at a time)</li>
-		</ul
+		</ul>
 	<strong>
 		<li><code>root@kl~# locate </code></li>
 		<li><code>root@kl~# ls </code></li>
