@@ -9,10 +9,10 @@ Here is a formatted list of basic commands. I used these as I was learning how t
 <h2> Get Help … and other info</h2>
 <ul>
 	<strong>
-		<li><code>C:\> <command> /? </code></li>
-		<li><code>root@kl~# <command> -h </code></li>
-		<li><code>root@kl~# <command> --help </code></li>
-		<li><code>root@kl~# man <command> </code></li>
+		<li><code>C:\&gr; &lt;command&gr; /? </code></li>
+		<li><code>root@kl~# &lt;command&gr; -h </code></li>
+		<li><code>root@kl~# &lt;command&gr; --help </code></li>
+		<li><code>root@kl~# man &lt;command&gr; </code></li>
 		<li><code>root@kl~# apropos </code></li>
 		<li><code>root@kl~# history </code></li>
 		<li><code>root@kl~# hostname</code></li>
@@ -70,19 +70,19 @@ Here is a formatted list of basic commands. I used these as I was learning how t
 
 <h2>Files</h2>
 <ul>
-	<li><code>root@kl~# cp <src> <dst> </code></li>
+	<li><code>root@kl~# cp &lt;src&gt; &lt;dst&gr; </code></li>
 		<ul>		
 			<li>(copy)</li>
 		</ul>
-	<li><code>C:\> copy <src> <dst> </code></li>
+	<li><code>C:\> copy  &lt;src&gt; &lt;dst&gr; </code></li>
 	<li><code>root@kl~# clear </code></li>
 	<li><code>C:\> cls </code></li>
 	<li><code>C:\> dir </code></li>
-	<li><code>root@kl~# echo <message> </code></li>
+	<li><code>root@kl~# echo &lt;message&gr; </code></li>
 		<ul>
 			<li>(print to screen)</li>
 		</ul>		
-	<li><code>root@kl~# find –iname <file> </code></li>
+	<li><code>root@kl~# find –iname &lt;file&gr; </code></li>
 	<li><code>C:\> findstr /i /s <string> *.txt </code></li>
 		<ul>
 			<li>(like grep for Windows)</li>
