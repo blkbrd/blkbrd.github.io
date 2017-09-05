@@ -9,10 +9,10 @@ Here is a formatted list of basic commands. I used these as I was learning how t
 <h2> Get Help … and other info</h2>
 <ul>
 	<strong>
-		<li><code>C:\&gr; &lt;command&gr; /? </code></li>
-		<li><code>root@kl~# &lt;command&gr; -h </code></li>
-		<li><code>root@kl~# &lt;command&gr; --help </code></li>
-		<li><code>root@kl~# man &lt;command&gr; </code></li>
+		<li><code>C:\&gt; &lt;command&gt; /? </code></li>
+		<li><code>root@kl~# &lt;command&gt; -h </code></li>
+		<li><code>root@kl~# &lt;command&gt; --help </code></li>
+		<li><code>root@kl~# man &lt;command&gt; </code></li>
 		<li><code>root@kl~# apropos </code></li>
 		<li><code>root@kl~# history </code></li>
 		<li><code>root@kl~# hostname</code></li>
@@ -70,20 +70,20 @@ Here is a formatted list of basic commands. I used these as I was learning how t
 
 <h2>Files</h2>
 <ul>
-	<li><code>root@kl~# cp &lt;src&gt; &lt;dst&gr; </code></li>
+	<li><code>root@kl~# cp &lt;src&gt; &lt;dst&gt; </code></li>
 		<ul>		
 			<li>(copy)</li>
 		</ul>
-	<li><code>C:\> copy  &lt;src&gt; &lt;dst&gr; </code></li>
+	<li><code>C:\> copy  &lt;src&gt; &lt;dst&gt; </code></li>
 	<li><code>root@kl~# clear </code></li>
 	<li><code>C:\> cls </code></li>
 	<li><code>C:\> dir </code></li>
-	<li><code>root@kl~# echo &lt;message&gr; </code></li>
+	<li><code>root@kl~# echo &lt;message&gt; </code></li>
 		<ul>
 			<li>(print to screen)</li>
 		</ul>		
-	<li><code>root@kl~# find –iname &lt;file&gr; </code></li>
-	<li><code>C:\> findstr /i /s <string> *.txt </code></li>
+	<li><code>root@kl~# find –iname &lt;file&gt; </code></li>
+	<li><code>C:\> findstr /i /s &lt;string&gt; *.txt </code></li>
 		<ul>
 			<li>(like grep for Windows)</li>
 		</ul>
@@ -91,7 +91,7 @@ Here is a formatted list of basic commands. I used these as I was learning how t
 		<ul>
 			<li>(determine file type)</li>
 		</ul>
-	<li><code>C:\> dir \ <file> /b /s </code></li>
+	<li><code>C:\> dir \ &lt;file&gt; /b /s </code></li>
 	<li><code>root@kl~# grep </code></li>
 		<ul>
 			<li>(search files for matching text)</li>
@@ -110,11 +110,11 @@ Here is a formatted list of basic commands. I used these as I was learning how t
 		<ul>
 			<li>(new directory)</li>
 		</ul>	
-	<li><code>root@kl~# mv <src><dst> </code></li>
+	<li><code>root@kl~# mv &lt;src&gt; &lt;dst&gt; </code></li>
 		<ul>
 			<li>(move/rename a file)</li>
 		</ul>
-	<li><code>C:\>  move <src> <dst> </code></li>
+	<li><code>C:\>  move &lt;src&gt; &lt;dst&gt; </code></li>
 	<li><code>root@kl~# rm </code></li> 
 		<ul>
 			<li>(remove files)</li>
