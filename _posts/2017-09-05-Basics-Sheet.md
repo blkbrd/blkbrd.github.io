@@ -68,45 +68,84 @@ Here is a formatted list of basic commands. I used these as I was learning how t
 <strong>
 </ul>
 
-<h6>Files</h6>
-root@kl~# cp <src> <dst> (copy)
-C:\> copy <src> <dst>
-root@kl~# clear
-C:\> cls
-C:\> dir
-root@kl~# echo <message>
-(print to screen)
-root@kl~# find –iname <file>
-C:\> findstr /i /s <string> *.txt
-(like grep for Windows)
-root@kl~# file
-(determine file type)
-C:\> dir \ <file> /b /s
-root@kl~# grep
-(search files for matching text)
-root@kl~# gzip
-(compress or decompress files)
-root@kl~# less 
-(display output one screen at a time)
-root@kl~# locate
-root@kl~# ls
-root@kl~# mkdir 
-(new directory)
-root@kl~# mv <src><dst> (move/rename a file)
-C:\>  move <src> <dst>
-root@kl~# rm (remove files)
-C:\> ren (renames file)
-root@kl~# umask 
-(users file creation mask)
-root@kl~# uniq 
-(uniquify files)
-root@kl~# vi/vim 
-(the best text editor)
-root@kl~# wc 
-(print byte, word and line counts)
-root@kl~# whereis 
-(search $path, man pages and source files for program)
-Users
+<h2>Files</h2>
+<ul>
+	<li><code>root@kl~# cp <src> <dst> </code></li>
+	<ul>		
+		<li>(copy)</li>
+	</ul>
+	<li><code>C:\> copy <src> <dst> </code></li>
+	<li><code>root@kl~# clear </code></li>
+	<li><code>C:\> cls </code></li>
+	<li><code>C:\> dir </code></li>
+	<li><code>root@kl~# echo <message> </code></li>
+		<ul>
+			<li>(print to screen)</li>
+		</ul>		
+	<li><code>root@kl~# find –iname <file> </code></li>
+	<li><code>C:\> findstr /i /s <string> *.txt </code></li>
+		<ul>
+			<li>(like grep for Windows)</li>
+		</ul>
+	<li><code>root@kl~# file </code></li>
+		<ul>
+			<li>(determine file type)</li>
+		</ul>
+	<li><code>C:\> dir \ <file> /b /s </code></li>
+	<li><code>root@kl~# grep </code></li>
+		<ul>
+			<li>(search files for matching text)</li>
+		</ul>
+	<li><code>root@kl~# gzip </code></li>
+		<ul>
+			<li>(compress or decompress files)</li>
+		</ul>
+	<li><code>root@kl~# less </code></li>
+		<ul>
+			<li>(display output one screen at a time)</li>
+		</ul>	
+	<li><code>root@kl~# locate </code></li>
+	<li><code>root@kl~# ls </code></li>
+	<li><code>root@kl~# mkdir </code></li>
+		<ul>
+			<li>(new directory)</li>
+		</ul>	
+	<li><code>root@kl~# mv <src><dst> </code></li>
+		<ul>
+			<li>(move/rename a file)</li>
+		</ul>
+	<li><code>C:\>  move <src> <dst> </code></li>
+	<li><code>root@kl~# rm </code></li> 
+		<ul>
+			<li>(remove files)</li>
+		</ul>	
+	<li><code>C:\> ren </code></li>
+		<ul>
+			<li>(renames file)</li>
+		</ul>		
+	<li><code>root@kl~# umask </code></li>
+		<ul>
+			<li>(users file creation mask)</li>
+		</ul>	
+	<li><code>root@kl~# uniq </code></li>
+		<ul>
+			<li>(uniquify files)</li>
+		</ul>	
+	<li><code>root@kl~# vi/vim </code></li>
+		<ul>
+			<li>(the best text editor)</li>
+		</ul>	
+	<li><code>root@kl~# wc </code></li>
+		<ul>
+			<li>(print byte, word and line counts)</li>
+		</ul>	
+	<li><code>root@kl~# whereis </code></li>
+		<ul>
+			<li>(search $path, man pages and source files for program)</li>
+		</ul>	
+
+
+<h2>Users</h2>
 root@kl~# chgrp 
 (change group ownership)	
 root@kl~# chmod 
