@@ -70,79 +70,111 @@ Here is a formatted list of basic commands. I used these as I was learning how t
 
 <h2>Files</h2>
 <ul>
-	<li><code>root@kl~# cp &lt;src&gt; &lt;dst&gt; </code></li>
-		<ul>		
-			<li>(copy)</li>
-		</ul>
-	<li><code>C:\> copy  &lt;src&gt; &lt;dst&gt; </code></li>
-	<li><code>root@kl~# clear </code></li>
-	<li><code>C:\> cls </code></li>
-	<li><code>C:\> dir </code></li>
-	<li><code>root@kl~# echo &lt;message&gt; </code></li>
-		<ul>
-			<li>(print to screen)</li>
-		</ul>		
-	<li><code>root@kl~# find –iname &lt;file&gt; </code></li>
-	<li><code>C:\> findstr /i /s &lt;string&gt; *.txt </code></li>
-		<ul>
-			<li>(like grep for Windows)</li>
-		</ul>
-	<li><code>root@kl~# file </code></li>
-		<ul>
-			<li>(determine file type)</li>
-		</ul>
-	<li><code>C:\> dir \ &lt;file&gt; /b /s </code></li>
-	<li><code>root@kl~# grep </code></li>
-		<ul>
-			<li>(search files for matching text)</li>
-		</ul>
-	<li><code>root@kl~# gzip </code></li>
-		<ul>
-			<li>(compress or decompress files)</li>
-		</ul>
-	<li><code>root@kl~# less </code></li>
+	<strong>
+		<li><code>root@kl~# cp &lt;src&gt; &lt;dst&gt; </code></li>
+	</strong>
+			<ul>		
+				<li>(copy)</li>
+			</ul>
+	<strong>
+		<li><code>C:\> copy  &lt;src&gt; &lt;dst&gt; </code></li>
+		<li><code>root@kl~# clear </code></li>
+		<li><code>C:\> cls </code></li>
+		<li><code>C:\> dir </code></li>
+		<li><code>root@kl~# echo &lt;message&gt; </code></li>
+	</strong>
+			<ul>
+				<li>(print to screen)</li>
+			</ul>		
+	<strong>
+		<li><code>root@kl~# find –iname &lt;file&gt; </code></li>
+		<li><code>C:\> findstr /i /s &lt;string&gt; *.txt </code></li>
+	</strong>
+			<ul>
+				<li>(like grep for Windows)</li>
+			</ul>
+	<strong>
+		<li><code>root@kl~# file </code></li>
+	</strong>
+			<ul>
+				<li>(determine file type)</li>
+			</ul>
+	<strong>
+		<li><code>C:\> dir \ &lt;file&gt; /b /s </code></li>
+		<li><code>root@kl~# grep </code></li>
+	</strong>
+			<ul>
+				<li>(search files for matching text)</li>
+			</ul>
+	<strong>
+			<li><code>root@kl~# gzip </code></li>
+	</strong>
+			<ul>
+				<li>(compress or decompress files)</li>
+			</ul>
+	<strong>
+		<li><code>root@kl~# less </code></li>
+	</strong>
 		<ul>
 			<li>(display output one screen at a time)</li>
-		</ul>	
-	<li><code>root@kl~# locate </code></li>
-	<li><code>root@kl~# ls </code></li>
-	<li><code>root@kl~# mkdir </code></li>
-		<ul>
-			<li>(new directory)</li>
-		</ul>	
-	<li><code>root@kl~# mv &lt;src&gt; &lt;dst&gt; </code></li>
-		<ul>
-			<li>(move/rename a file)</li>
-		</ul>
-	<li><code>C:\>  move &lt;src&gt; &lt;dst&gt; </code></li>
-	<li><code>root@kl~# rm </code></li> 
-		<ul>
-			<li>(remove files)</li>
-		</ul>	
-	<li><code>C:\> ren </code></li>
-		<ul>
-			<li>(renames file)</li>
-		</ul>		
-	<li><code>root@kl~# umask </code></li>
-		<ul>
-			<li>(users file creation mask)</li>
-		</ul>	
-	<li><code>root@kl~# uniq </code></li>
-		<ul>
-			<li>(uniquify files)</li>
-		</ul>	
-	<li><code>root@kl~# vi/vim </code></li>
-		<ul>
-			<li>(the best text editor)</li>
-		</ul>	
-	<li><code>root@kl~# wc </code></li>
-		<ul>
-			<li>(print byte, word and line counts)</li>
-		</ul>	
-	<li><code>root@kl~# whereis </code></li>
-		<ul>
-			<li>(search $path, man pages and source files for program)</li>
-		</ul>	
+		</ul
+	<strong>
+		<li><code>root@kl~# locate </code></li>
+		<li><code>root@kl~# ls </code></li>
+		<li><code>root@kl~# mkdir </code></li>
+	</strong>
+			<ul>
+				<li>(new directory)</li>
+			</ul>	
+	<strong>
+		<li><code>root@kl~# mv &lt;src&gt; &lt;dst&gt; </code></li>
+	</strong>
+			<ul>
+				<li>(move/rename a file)</li>
+			</ul>
+	<strong>
+		<li><code>C:\>  move &lt;src&gt; &lt;dst&gt; </code></li>
+		<li><code>root@kl~# rm </code></li> 
+	</strong>
+			<ul>
+				<li>(remove files)</li>
+			</ul>	
+	<strong>
+		<li><code>C:\> ren </code></li>
+	</strong>
+			<ul>
+				<li>(renames file)</li>
+			</ul>	
+	<strong>
+		<li><code>root@kl~# umask </code></li>
+	</strong>
+			<ul>
+				<li>(users file creation mask)</li>
+			</ul>	
+	<strong>
+		<li><code>root@kl~# uniq </code></li>
+	</strong>
+			<ul>
+				<li>(uniquify files)</li>
+			</ul>
+	<strong>
+		<li><code>root@kl~# vi/vim </code></li>
+	</strong>
+			<ul>
+				<li>(the best text editor)</li>
+			</ul>	
+	<strong>
+		<li><code>root@kl~# wc </code></li>
+	</strong>
+			<ul>
+				<li>(print byte, word and line counts)</li>
+			</ul>	
+	<strong>
+		<li><code>root@kl~# whereis </code></li>
+	</strong>
+			<ul>
+				<li>(search $path, man pages and source files for program)</li>
+			</ul>	
 </ul>
 		
 <h2>Users</h2>
