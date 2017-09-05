@@ -235,7 +235,7 @@ Here is a formatted list of basic commands. I used these as I was learning how t
 	<li><code>root@kl~# curl </code></li>
 </strong>
 		<ul>
-		<li>(grab webpages)</li>
+			<li>(grab webpages)</li>
 		</ul>
 <strong>
 	<li><code>root@kl~# dig </code></li>
@@ -248,7 +248,7 @@ Here is a formatted list of basic commands. I used these as I was learning how t
 	<li><code>root@kl~# netstat -ano/-plant/-uplant </code></li>
 </strong>
 		<ul>
-		<li>(networking connections)</li>
+			<li>(networking connections)</li>
 		</ul>
 <strong>
 	<li><code>root@kl~# nslookup </code></li>
@@ -267,22 +267,26 @@ Here is a formatted list of basic commands. I used these as I was learning how t
 		</ul>
  </ul>
  <h1> please excuse my mess...still formatting. Had to go! </h1>
-<h2>Reconnaissance<h2>
-Discover target’s IP/FQDN domain
-nslookup <domain>
-nslookup <ip>
-Find nameserver for known domain
-	root@kl~# dig <domain>
-perform a zone transfer to list hosts w/in domain
-	root@kl~# dig axfr @<name server> <domain>
-determine route to a host
-	root@kl~# traceroute <ip>
-	C:\> tracert <ip
-scan for services and operating system
-	root@kl~# nmap –sV –O <ip> 
-scan for vulns
-	root@kl~# nmap --script=vulns <ip>
-Gain and Maintain
+ 
+<h2>Reconnaissance</h2>
+<ul>
+<li><code>nslookup &lt;domain&gt; </code></li>
+	Discover target’s IP/FQDN domain
+<li><code>nslookup &lt;ip&gt; </code></li>
+<li><code>root@kl~# dig &lt;domain&gt;  </code></li>
+	Find nameserver for known domain
+<li><code>root@kl~# dig axfr @&lt;name server&gt; <domain> </code></li>
+	perform a zone transfer to list hosts w/in domain
+<li><code>root@kl~# traceroute &lt;ip&gt; </code></li>
+		determine route to a host
+<li><code>C:\> tracert &lt;ip&gt; </code></li>
+		determine route to a host
+<li><code>root@kl~# nmap –sV –O &lt;ip&gt; </code></li>
+	scan for services and operating system
+<li><code>root@kl~# nmap --script=vulns &lt;ip&gt; </code></li>
+	scan for some old vulns
+	
+<h2>Gain and Maintain</h2>
 establish ssh connection
 	root@kl~# ssh <user>@<ip>
 remote desktop (rdesktop is port 3389 and vncviewer is 5900)
