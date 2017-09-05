@@ -266,7 +266,6 @@ Here is a formatted list of basic commands. I used these as I was learning how t
 			<li>(get web pages or files)</li>
 		</ul>
  </ul>
- <h1> please excuse my mess...still formatting. Had to go! </h1>
  
 <h2>Reconnaissance</h2>
 <ul>
@@ -359,5 +358,5 @@ Here is a formatted list of basic commands. I used these as I was learning how t
 	<li><code>root@kl~#  nc –l –p &lt;port&gt; > &lt;file&gt; </code>(on your platform to listen for file)</li>
 	<li><code>C:\> nc.exe &lt;your ip&gt; &lt;port&gt;  <  &lt;file to transfer&gt; </code></li>
 <li>transfer files with python</li>
-	<li><code>python –m SimpleHTTPServer <port> </code></li>
+	<li><code>python –m SimpleHTTPServer &lt;port&gt; </code></li>
 </ul>
