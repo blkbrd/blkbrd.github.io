@@ -6,8 +6,9 @@ date: 2017-09-05
 <p>
 Here is a formatted list of basic commands. I used these as I was learning how to get my way around and added to the list as I learned new things. Writing them down helped me remember the syntax.
 </p>
-###Get Help … and other info
+<h3> Get Help … and other info
 <ul>
+<strong>
 	<li><code>C:\> <command> /? </code></li>
 	<li><code>root@kl~# <command> -h </code></li>
 	<li><code>root@kl~# <command> --help </code></li>
@@ -17,13 +18,23 @@ Here is a formatted list of basic commands. I used these as I was learning how t
 	<li><code>root@kl~# hostname</code></li>
 	<li><code>root@kl~# sudo </code></li>
 	<li><code>root@kl~# whoami </code></li>
+</strong>
 		<ul>
-		<li>\(print current user id and name\)</li>	
+		<li>(print current user id and name)</li>	
 		</ul>
-	<li>root@kl~# date</li> 
-	<li>C:\>  chdir (displays location)</li>
-	<li>root@kl~# pwd </li>
+<strong>
+	<li><code>root@kl~# date </code></li> 
+	<li><code>C:\>  chdir </code></li>
+</strong>
+		<ul>
 		<li>(displays location)</li>
+		</ul>
+<strong>
+	<li><code>root@kl~# pwd </code></li>
+</strong>
+		<ul>
+		<li>(displays location)</li>
+		</ul>
 </ul>
 ###Processes and Things
 root@kl~# jobs 
