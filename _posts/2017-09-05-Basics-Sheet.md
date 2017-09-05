@@ -6,22 +6,26 @@ date: 2017-09-05
 <p>
 Here is a formatted list of basic commands. I used these as I was learning how to get my way around and added to the list as I learned new things. Writing them down helped me remember the syntax.
 </p>
-Get Help … and other info
-C:\> <command> /?
-root@kl~# <command> -h
-root@kl~# <command> --help
-root@kl~# man <command>
-root@kl~# apropos
-root@kl~# history 
-root@kl~# hostname
-root@kl~# sudo
-root@kl~# whoami 
-(print current user id and name)	
-root@kl~# date 
-C:\>  chdir (displays location)
-root@kl~# pwd 
-(displays location)
-Processes and Things
+###Get Help … and other info
+<ul>
+	<li><code>C:\> <command> /? </code></li>
+	<li><code>root@kl~# <command> -h </code></li>
+	<li><code>root@kl~# <command> --help </code></li>
+	<li><code>root@kl~# man <command> </code></li>
+	<li><code>root@kl~# apropos </code></li>
+	<li><code>root@kl~# history </code></li>
+	<li><code>root@kl~# hostname</code></li>
+	<li><code>root@kl~# sudo </code></li>
+	<li><code>root@kl~# whoami </code></li>
+		<ul>
+		<li>\(print current user id and name\)</li>	
+		</ul>
+	<li>root@kl~# date</li> 
+	<li>C:\>  chdir (displays location)</li>
+	<li>root@kl~# pwd </li>
+		<li>(displays location)</li>
+</ul>
+###Processes and Things
 root@kl~# jobs 
 (list cronjobs)
 root@kl~# kill 
