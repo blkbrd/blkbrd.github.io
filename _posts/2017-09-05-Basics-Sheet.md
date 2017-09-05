@@ -6,7 +6,7 @@ date: 2017-09-05
 <p>
 Here is a formatted list of basic commands. I used these as I was learning how to get my way around and added to the list as I learned new things. Writing them down helped me remember the syntax.
 </p>
-<h3> Get Help … and other info</h3>
+<h6> Get Help … and other info</h6>
 <ul>
 <strong>
 	<li><code>C:\> <command> /? </code></li>
@@ -36,17 +36,27 @@ Here is a formatted list of basic commands. I used these as I was learning how t
 		<li>(displays location)</li>
 		</ul>
 </ul>
-###Processes and Things
-root@kl~# jobs 
-(list cronjobs)
-root@kl~# kill 
-(stop processes)
-root@kl~# pkill 
-(stop processes)
-root@kl~# ps –aef 
-(list processes status)
-C:\ tasklist
-Files
+<h6>Processes and Things</h6>
+<ul>
+	<li><code>root@kl~# jobs </li></code> 
+		<ul>
+		<li>(list cronjobs)<li>
+		</ul>
+	<li><code>root@kl~# kill </li></code>
+		<ul>
+		<li>(stop processes)<li>
+		</ul>
+	<li><code>root@kl~# pkill </li></code>
+		<ul>
+		<li>(stop processes)<li>
+		</ul>
+	<li><code> root@kl~# ps –aef </li></code>
+		<ul>
+		(list processes status)
+		</ul>
+<li><code>C:\ tasklist </li></code>
+
+<h6>Files</h6>
 root@kl~# cp <src> <dst> (copy)
 C:\> copy <src> <dst>
 root@kl~# clear
