@@ -65,7 +65,7 @@ Here is a formatted list of basic commands. I used these as I was learning how t
 		</ul>
 <strong>
 	<li><code>C:\ tasklist </code></li>
-<strong>
+</strong>
 </ul>
 
 <h2>Files</h2>
