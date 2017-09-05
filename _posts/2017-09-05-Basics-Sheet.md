@@ -36,34 +36,35 @@ Here is a formatted list of basic commands. I used these as I was learning how t
 		<li>(displays location)</li>
 		</ul>
 </ul>
+
 <h6>Processes and Things</h6>
 <ul>
 <strong>
-	<li><code>root@kl~# jobs </li></code>
+	<li><code>root@kl~# jobs </code></li>
 </strong>
 		<ul>
 		<li>(list cronjobs)<li>
 		</ul>
 <strong>
-	<li><code>root@kl~# kill </li></code>
+	<li><code>root@kl~# kill </code></li>
 </strong>
 		<ul>
 		<li>(stop processes)<li>
 		</ul>
 <strong>
-	<li><code>root@kl~# pkill </li></code>
+	<li><code>root@kl~# pkill </code></li>
 </strong>
 		<ul>
 		<li>(stop processes)<li>
 		</ul>
 <strong>	
-	<li><code> root@kl~# ps –aef </li></code>
+	<li><code> root@kl~# ps –aef </code></li>
 </strong>
 		<ul>
 		(list processes status)
 		</ul>
 <strong>
-	<li><code>C:\ tasklist </li></code>
+	<li><code>C:\ tasklist </code></li>
 <strong>
 </ul>
 
