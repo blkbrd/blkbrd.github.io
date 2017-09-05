@@ -275,7 +275,7 @@ Here is a formatted list of basic commands. I used these as I was learning how t
 <li><code>nslookup &lt;ip&gt; </code></li>
 <li><code>root@kl~# dig &lt;domain&gt;  </code></li>
 	Find nameserver for known domain
-<li><code>root@kl~# dig axfr @&lt;name server&gt; <domain> </code></li>
+<li><code>root@kl~# dig axfr @&lt;name server&gt; &lt;domain&gt; </code></li>
 	perform a zone transfer to list hosts w/in domain
 <li><code>root@kl~# traceroute &lt;ip&gt; </code></li>
 		determine route to a host
