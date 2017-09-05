@@ -37,31 +37,31 @@ Here is a formatted list of basic commands. I used these as I was learning how t
 		</ul>
 </ul>
 
-<h6>Processes and Things</h6>
+<h2>Processes and Things</h2>
 <ul>
 <strong>
 	<li><code>root@kl~# jobs </code></li>
 </strong>
 		<ul>
-		<li>(list cronjobs)<li>
+		<li>(list cronjobs)</li>
 		</ul>
 <strong>
 	<li><code>root@kl~# kill </code></li>
 </strong>
 		<ul>
-		<li>(stop processes)<li>
+		<li>(stop processes)</li>
 		</ul>
 <strong>
 	<li><code>root@kl~# pkill </code></li>
 </strong>
 		<ul>
-		<li>(stop processes)<li>
+		<li>(stop processes)</li>
 		</ul>
 <strong>	
 	<li><code> root@kl~# ps –aef </code></li>
 </strong>
 		<ul>
-		(list processes status)
+			<li>(list processes status)</li>
 		</ul>
 <strong>
 	<li><code>C:\ tasklist </code></li>
