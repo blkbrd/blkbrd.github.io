@@ -7,143 +7,143 @@ date: 2017-09-05
 Here is a formatted list of basic commands. I used these as I was learning how to get my way around and added to the list as I learned new things. Writing them down helped me remember the syntax.
 </p>
 <h2> Get Help … and other info</h2>
-	<ul>
-		<strong>
-			<li><code>C:\> <command> /? </code></li>
-			<li><code>root@kl~# <command> -h </code></li>
-			<li><code>root@kl~# <command> --help </code></li>
-			<li><code>root@kl~# man <command> </code></li>
-			<li><code>root@kl~# apropos </code></li>
-			<li><code>root@kl~# history </code></li>
-			<li><code>root@kl~# hostname</code></li>
-			<li><code>root@kl~# sudo </code></li>
-			<li><code>root@kl~# whoami </code></li>
-		</strong>
-				<ul>
-					<li>(print current user id and name)</li>	
-				</ul>
-		<strong>
-			<li><code>root@kl~# date </code></li> 
-			<li><code>C:\>  chdir </code></li>
-		</strong>
-				<ul>
-					<li>(displays location)</li>
-				</ul>
-		<strong>
-			<li><code>root@kl~# pwd </code></li>
-		</strong>
-				<ul>
-					<li>(displays location)</li>
-				</ul>
-	</ul>
+<ul>
+	<strong>
+		<li><code>C:\> <command> /? </code></li>
+		<li><code>root@kl~# <command> -h </code></li>
+		<li><code>root@kl~# <command> --help </code></li>
+		<li><code>root@kl~# man <command> </code></li>
+		<li><code>root@kl~# apropos </code></li>
+		<li><code>root@kl~# history </code></li>
+		<li><code>root@kl~# hostname</code></li>
+		<li><code>root@kl~# sudo </code></li>
+		<li><code>root@kl~# whoami </code></li>
+	</strong>
+			<ul>
+				<li>(print current user id and name)</li>	
+			</ul>
+	<strong>
+		<li><code>root@kl~# date </code></li> 
+		<li><code>C:\>  chdir </code></li>
+	</strong>
+			<ul>
+				<li>(displays location)</li>
+			</ul>
+	<strong>
+		<li><code>root@kl~# pwd </code></li>
+	</strong>
+			<ul>
+				<li>(displays location)</li>
+			</ul>
+</ul>
 
 <h2>Processes and Things</h2>
-	<ul>
-		<strong>
-			<li><code>root@kl~# jobs </code></li>
-		</strong>
-				<ul>
-					<li>(list cronjobs)</li>
-				</ul>
-		<strong>
-			<li><code>root@kl~# kill </code></li>
-		</strong>
-				<ul>
-					<li>(stop processes)</li>
-				</ul>
-		<strong>
-			<li><code>root@kl~# pkill </code></li>
-		</strong>
-				<ul>
-					<li>(stop processes)</li>
-				</ul>
-		<strong>	
-			<li><code> root@kl~# ps –aef </code></li>
-		</strong>
-				<ul>
-					<li>(list processes status)</li>
-				</ul>
-		<strong>
-			<li><code>C:\ tasklist </code></li>
-		</strong>
-	</ul>
+<ul>
+	<strong>
+		<li><code>root@kl~# jobs </code></li>
+	</strong>
+			<ul>
+				<li>(list cronjobs)</li>
+			</ul>
+	<strong>
+		<li><code>root@kl~# kill </code></li>
+	</strong>
+			<ul>
+				<li>(stop processes)</li>
+			</ul>
+	<strong>
+		<li><code>root@kl~# pkill </code></li>
+	</strong>
+			<ul>
+				<li>(stop processes)</li>
+			</ul>
+	<strong>	
+		<li><code> root@kl~# ps –aef </code></li>
+	</strong>
+			<ul>
+				<li>(list processes status)</li>
+			</ul>
+	<strong>
+		<li><code>C:\ tasklist </code></li>
+	</strong>
+</ul>
 
 <h2>Files</h2>
-	<ul>
-		<li><code>root@kl~# cp <src> <dst> </code></li>
-			<ul>		
-				<li>(copy)</li>
-			</ul>
-		<li><code>C:\> copy <src> <dst> </code></li>
-		<li><code>root@kl~# clear </code></li>
-		<li><code>C:\> cls </code></li>
-		<li><code>C:\> dir </code></li>
-		<li><code>root@kl~# echo <message> </code></li>
-			<ul>
-				<li>(print to screen)</li>
-			</ul>		
-		<li><code>root@kl~# find –iname <file> </code></li>
-		<li><code>C:\> findstr /i /s <string> *.txt </code></li>
-			<ul>
-				<li>(like grep for Windows)</li>
-			</ul>
-		<li><code>root@kl~# file </code></li>
-			<ul>
-				<li>(determine file type)</li>
-			</ul>
-		<li><code>C:\> dir \ <file> /b /s </code></li>
-		<li><code>root@kl~# grep </code></li>
-			<ul>
-				<li>(search files for matching text)</li>
-			</ul>
-		<li><code>root@kl~# gzip </code></li>
-			<ul>
-				<li>(compress or decompress files)</li>
-			</ul>
-		<li><code>root@kl~# less </code></li>
-			<ul>
-				<li>(display output one screen at a time)</li>
-			</ul>	
-		<li><code>root@kl~# locate </code></li>
-		<li><code>root@kl~# ls </code></li>
-		<li><code>root@kl~# mkdir </code></li>
-			<ul>
-				<li>(new directory)</li>
-			</ul>	
-		<li><code>root@kl~# mv <src><dst> </code></li>
-			<ul>
-				<li>(move/rename a file)</li>
-			</ul>
-		<li><code>C:\>  move <src> <dst> </code></li>
-		<li><code>root@kl~# rm </code></li> 
-			<ul>
-				<li>(remove files)</li>
-			</ul>	
-		<li><code>C:\> ren </code></li>
-			<ul>
-				<li>(renames file)</li>
-			</ul>		
-		<li><code>root@kl~# umask </code></li>
-			<ul>
-				<li>(users file creation mask)</li>
-			</ul>	
-		<li><code>root@kl~# uniq </code></li>
-			<ul>
-				<li>(uniquify files)</li>
-			</ul>	
-		<li><code>root@kl~# vi/vim </code></li>
-			<ul>
-				<li>(the best text editor)</li>
-			</ul>	
-		<li><code>root@kl~# wc </code></li>
-			<ul>
-				<li>(print byte, word and line counts)</li>
-			</ul>	
-		<li><code>root@kl~# whereis </code></li>
-			<ul>
-				<li>(search $path, man pages and source files for program)</li>
-			</ul>	
-	</ul>
+<ul>
+	<li><code>root@kl~# cp <src> <dst> </code></li>
+		<ul>		
+			<li>(copy)</li>
+		</ul>
+	<li><code>C:\> copy <src> <dst> </code></li>
+	<li><code>root@kl~# clear </code></li>
+	<li><code>C:\> cls </code></li>
+	<li><code>C:\> dir </code></li>
+	<li><code>root@kl~# echo <message> </code></li>
+		<ul>
+			<li>(print to screen)</li>
+		</ul>		
+	<li><code>root@kl~# find –iname <file> </code></li>
+	<li><code>C:\> findstr /i /s <string> *.txt </code></li>
+		<ul>
+			<li>(like grep for Windows)</li>
+		</ul>
+	<li><code>root@kl~# file </code></li>
+		<ul>
+			<li>(determine file type)</li>
+		</ul>
+	<li><code>C:\> dir \ <file> /b /s </code></li>
+	<li><code>root@kl~# grep </code></li>
+		<ul>
+			<li>(search files for matching text)</li>
+		</ul>
+	<li><code>root@kl~# gzip </code></li>
+		<ul>
+			<li>(compress or decompress files)</li>
+		</ul>
+	<li><code>root@kl~# less </code></li>
+		<ul>
+			<li>(display output one screen at a time)</li>
+		</ul>	
+	<li><code>root@kl~# locate </code></li>
+	<li><code>root@kl~# ls </code></li>
+	<li><code>root@kl~# mkdir </code></li>
+		<ul>
+			<li>(new directory)</li>
+		</ul>	
+	<li><code>root@kl~# mv <src><dst> </code></li>
+		<ul>
+			<li>(move/rename a file)</li>
+		</ul>
+	<li><code>C:\>  move <src> <dst> </code></li>
+	<li><code>root@kl~# rm </code></li> 
+		<ul>
+			<li>(remove files)</li>
+		</ul>	
+	<li><code>C:\> ren </code></li>
+		<ul>
+			<li>(renames file)</li>
+		</ul>		
+	<li><code>root@kl~# umask </code></li>
+		<ul>
+			<li>(users file creation mask)</li>
+		</ul>	
+	<li><code>root@kl~# uniq </code></li>
+		<ul>
+			<li>(uniquify files)</li>
+		</ul>	
+	<li><code>root@kl~# vi/vim </code></li>
+		<ul>
+			<li>(the best text editor)</li>
+		</ul>	
+	<li><code>root@kl~# wc </code></li>
+		<ul>
+			<li>(print byte, word and line counts)</li>
+		</ul>	
+	<li><code>root@kl~# whereis </code></li>
+		<ul>
+			<li>(search $path, man pages and source files for program)</li>
+		</ul>	
+</ul>
 		
 <h2>Users</h2>
 root@kl~# chgrp 
