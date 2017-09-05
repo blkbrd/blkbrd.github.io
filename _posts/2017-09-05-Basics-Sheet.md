@@ -178,23 +178,58 @@ Here is a formatted list of basic commands. I used these as I was learning how t
 </ul>
 		
 <h2>Users</h2>
-root@kl~# chgrp 
-(change group ownership)	
-root@kl~# chmod 
-(change access permissions) 
-root@kl~# chown 
-(change file owner and group)
-root@kl~# groupadd 
-(add a user to a security group)
-root@kl~# passwd 
-(modify user password)
-root@kl~# useradd 
-(create new users)
-root@kl~# usermod 
-(modify user account)
-root@kl~# users 
-(list logged in users)
-Networks
+<ul>
+<strong>
+	<li><code>root@kl~# chgrp </code></li>
+</strong>
+			<ul>
+				<li>(change group ownership)</li>
+			</ul>	
+<strong>
+	<li><code>root@kl~# chmod </code></li>
+</strong>	
+			<ul>
+				<li>(change access permissions)</li>
+			</ul> 
+<strong>
+	<li><code>root@kl~# chown </code></li>
+</strong>	
+			<ul>
+				<li>(change file owner and group)</li>
+			</ul>	
+<strong>
+	<li><code>root@kl~# groupadd </code></li>
+</strong>	
+			<ul>
+				<li>(add a user to a security group)</li>
+			</ul>	
+<strong>
+	<li><code>root@kl~# passwd </code></li>
+</strong>	
+			<ul>
+				<li>(modify user password)</li>
+			</ul>	
+<strong>
+	<li><code>root@kl~# useradd </code></li>
+</strong>	
+			<ul>
+				<li>(create new users)</li>
+			</ul>	
+<strong>
+	<li><code>root@kl~# usermod </code></li>
+</strong>	
+			<ul>
+				<li>(modify user account)</li>
+			</ul>	
+<strong>
+	<li><code>root@kl~# users </code></li>
+</strong>	
+			<ul>
+				<li>(list logged in users)</li>
+			</ul>
+</ul>
+
+<h2>Networks</h2>
 root@kl~# curl (grab webpages)
 root@kl~# dig (DNS lookup)
 root@kl~# ifconfig
