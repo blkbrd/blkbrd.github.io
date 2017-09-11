@@ -5,6 +5,7 @@ date: 2017-09-10
 ---
 
 I decided to play with Processing just to brush up on my coding skills. I much prefer scripting. I stole my brother's homework and made some changes. I will update as I make it better!
+
 <code> 
   
 /* Edits on Robert Warner's Pong Game 8/30/2017
@@ -68,7 +69,7 @@ line(400, 0, 400, 800);
 
 //if ball passes left boundary wall, increment score and reset position     
 
-if (x<=0) {
+if (x&lt;=0) {
 
 score2++;
 
@@ -94,7 +95,7 @@ colors3 = random(0, 255);
 
 //if ball passes right boundary wall, increment score and reset position
 
-if (x>=800) {
+if (x&gt;=800) {
 
 score1++;
 
@@ -146,7 +147,7 @@ rect(780, rect2Y, 20, 100);
 
 //logic for pong ball hittle paddle
 
-if (x<32.5 && y>rect1Y && y<rect1Y+100) {
+if (x&lt;32.5 && y&gt;rect1Y && y&lt;rect1Y+100) {
 
 delX = -1.1 * delX;                        //reverse direction, speed up slightly
 
@@ -156,7 +157,7 @@ delX = -1.1 * delX;                        //reverse direction, speed up slightl
 
 //logic for pong ball hittle paddle     
 
-if (x>767.5 && y>rect2Y && y<rect2Y+100) {
+if (x&gt;767.5 && y&gt;rect2Y && y&lt;rect2Y+100) {
 
 delX = -1.1 * delX;                        //reverse direction, speed up slightly
 
@@ -166,7 +167,7 @@ delX = -1.1 * delX;                        //reverse direction, speed up slightl
 
 //logic for pong ball hitting top or bottom wall
 
-if (y>787.5 || y<12.5) {
+if (y&gt;787.5 || y&lt;12.5) {
 
 delY = -1 * delY;                          //reverse direction
 
@@ -214,7 +215,7 @@ player2Down = true;
 
 if (player1Up == true) {
 
-if (rect1Y <= 0) {                                     //check to see if pong paddle is hitting the top wall
+if (rect1Y &lt;= 0) {                                     //check to see if pong paddle is hitting the top wall
 
 rect1Y = 0;                                          //dont let it move past the edge of the play space
 
@@ -228,7 +229,7 @@ player1Up = false;                                     //reset "move up" flag to
 
 } else if (player1Down == true) {
 
-if (rect1Y >= 707.5) {
+if (rect1Y &gt;= 707.5) {
 
 rect1Y = 707.5;
 
@@ -246,7 +247,7 @@ player1Down = false;
 
 if (player2Up == true) {
 
-if (rect2Y <= 0) {
+if (rect2Y &lt;= 0) {
 
 rect2Y = 0;
 
@@ -260,7 +261,7 @@ player2Up = false;
 
 } else if (player2Down == true) {
 
-if (rect2Y >= 707.5) {
+if (rect2Y &gt;= 707.5) {
 
 rect2Y = 707.5;
 
