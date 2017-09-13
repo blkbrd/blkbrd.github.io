@@ -30,7 +30,8 @@ In order to use it you:
 ..* The script runs for 1 to 3 minutes before publishing the keystrokes to the Google Sheet
 9. Lastly, I went into the Google Sheet and published it to the web for easier viewing
 
-Sometimes if I typed too fast, it doesnt record all of the typed keys, and it doesnt record backspaces or punctuation 
+Sometimes if I typed too fast, it doesnt record all of the typed keys, and it doesnt record backspaces or punctuation. 
+
 Also, it only runs once and if you want it to continuously run, it needs some edits or perhaps a scheduled task to get it going again
 
 Neat little tool! Thanks Aaron!
