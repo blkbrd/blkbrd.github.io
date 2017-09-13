@@ -6,9 +6,11 @@ date: 2017-09-12
 
 [Aaron](http://aaronmreyes.com/ "Aaron's Webpage"), made a cool PowerShell-based keylogger 
 (well, it *was* python until i bribed him to re-write it for me...) 
+
 It is located on [ his GitHub page](https://github.com/a-rey/bitflip/tree/master/keylogger "Aaron's Keylogger")
 
 It great because it handles the keylogging and the exfiltration of data!
+
 In order to use it you: 
 1. Create a fake Google Account (or use a throw-away)
 2. Create a Spreadsheet in that account's Google Drive
