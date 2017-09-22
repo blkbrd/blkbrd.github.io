@@ -32,6 +32,6 @@ In order to use it you:
 
 Sometimes if I typed too fast, it doesnt record all of the typed keys, and it doesnt record backspaces or punctuation. 
 
-Also, it only runs once and if you want it to continuously run, it needs some edits or perhaps a scheduled task to get it going again
+As-is, it only runs once and if you want it to continuously run, it needs some edits or perhaps a scheduled task to get it going again. When I used it, I edited it not use Google Scripts and instead, I had it save a file locally. Not very sneaky... I also set it to run for 10 minutes and send me its log via scheduled task and then restart the script. Because there aren't signatures developed for it, it might not flag host-based security systems. 
 
 Neat little tool! Thanks Aaron!
