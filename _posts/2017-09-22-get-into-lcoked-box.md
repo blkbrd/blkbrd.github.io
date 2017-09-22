@@ -1,9 +1,8 @@
 ---
 layout: post
 title: "Get into a Windows laptop without the password"
-date: 2017-06-23
+date: 2017-09-22
 ---
-#Getting into a laptop when you forgot the password 
 
 I recently forgot a password for my Windows Hard Drive and had to reset it. 
 A friend showed me a cool way to change the password for my hard drive. 
