@@ -1,14 +1,14 @@
 ---
 layout: post
-title: "PowerShell Spreach Synthesizier"
+title: "PowerShell Speach Synthesizer"
 date: 2017-09-26
 ---
 
-PowerShell has a speech synthesizier!
+PowerShell has a speech synthesizer!
 Here's a fun script to grab random phrases from a file and have your computer speak them!
 
 <code>
-Add-Type -Assemblyman System.speech
+Add-Type -AssemblyName System.speech
 $speaker = New-Object System.Speech.Synthesis.SpeechSynthesizier
 
 $Location = PATH
