@@ -1,3 +1,9 @@
+---
+layout: post
+title: ""
+date: 2017-09-26
+---
+
 PowerShell has a speech synthesizier!
 Here's a fun script to grab random phrases from a file and have your computer speak them!
 
