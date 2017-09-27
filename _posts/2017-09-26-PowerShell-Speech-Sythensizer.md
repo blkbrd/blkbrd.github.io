@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "PowerShell Speach Synthesizer"
+title: "PowerShell Speech Synthesizer"
 date: 2017-09-26
 ---
 
@@ -9,11 +9,11 @@ Here's a fun script to grab random phrases from a file and have your computer sp
 
 <code>
 Add-Type -AssemblyName System.speech
-$speaker = New-Object System.Speech.Synthesis.SpeechSynthesizier
+$speaker = New-Object System.Speech.Synthesis.SpeechSynthesizer;
 </code>
 
 <code>
-$Location = PATH
+$Location = PATH of .csv file
 $Phrase = (Get-content $Location) | Get-Random
 </code>
 
@@ -23,6 +23,6 @@ $speaker.Speak($Phrase)
 </code>
 
 <code>
-#this also works:
+#this also works for a specified phrase
 #$speaker.Speak("hello, $env:USERNAME ")
 </code>
