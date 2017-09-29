@@ -1,3 +1,8 @@
+---
+layout: post
+title: "working with log2timeline csv"
+date: 2017-09-29
+---
 
 I was dealing with some big .csv log2timeline output files recently.
 Even with post-processing, the files were overflowing Excel.
