@@ -10,13 +10,11 @@ time coding whatever I can in Python. Yesterday I learnt that you can interact w
 
 its as easy as... 
 <p>
-<code> 
-  import openpyxl
-  
-  wb = openpyxl.load_workbook('NAME.xlsx')
-  
-  sheet1 = wb.get_sheet_by_name('SHEET_NAME')
-</code>
+  <code> import openpyxl </code>
+  <p>
+  <code> wb = openpyxl.load_workbook('NAME.xlsx')</code>
+  <p>
+  <code> sheet1 = wb.get_sheet_by_name('SHEET_NAME') </code>
 <p>
   you can do whatever data analytics and transformations your heart desires! 
 
