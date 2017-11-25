@@ -1,4 +1,9 @@
 
+---
+layout: post
+title: "Python and Excel"
+date: 2017-11-25
+---
 I never learned Python in my degree (Computer Science), but I used it a few times in school and at work and 
 was always amazed at how easy it made tasks. With the goal of increasing my Python proficiency, I am spending 
 time coding whatever I can in Python. Yesterday I learnt that you can interact with Excel and OpenOffice Calc in Python!
