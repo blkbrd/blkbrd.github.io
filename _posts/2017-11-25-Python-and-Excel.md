@@ -12,7 +12,9 @@ its as easy as...
 <p>
 <code> 
   import openpyxl
+  
   wb = openpyxl.load_workbook('NAME.xlsx')
+  
   sheet1 = wb.get_sheet_by_name('SHEET_NAME')
 </code>
 <p>
