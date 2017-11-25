@@ -8,7 +8,8 @@ I never learned Python in my degree (Computer Science), but I used it a few time
 was always amazed at how easy it made tasks. With the goal of increasing my Python proficiency, I am spending 
 time coding whatever I can in Python. Yesterday I learnt that you can interact with Excel and OpenOffice Calc in Python!
 
-its as easy as... <p>
+its as easy as... 
+<p>
 <code> 
 import openpyxl
 wb = openpyxl.load_workbook('NAME.xlsx')
