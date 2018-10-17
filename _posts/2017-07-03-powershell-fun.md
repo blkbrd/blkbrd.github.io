@@ -51,3 +51,5 @@ $events.count</code></p>
 ## Outputting to file
 <blockquote><p><code> ..... | Out-File -filePath &lt;path&gt; $env:Computer.txt (-append) </code></p> 
 </blockquote>
+
+<meta name="description" content="using PowerShell to gather local artifacts from Windows hosts">
