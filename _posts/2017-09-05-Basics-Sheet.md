@@ -360,3 +360,5 @@ Here is a formatted list of basic commands. I used these as I was learning how t
 <li>transfer files with python</li>
 	<li><code>python –m SimpleHTTPServer &lt;port&gt; </code></li>
 </ul>
+
+<meta name="description" content="use built-in commands to ">
