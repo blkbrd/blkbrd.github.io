@@ -5,7 +5,7 @@ date: 2017-09-12
 ---
 
 [Aaron](http://aaronmreyes.com/ "Aaron's Webpage"), made a cool PowerShell-based keylogger 
-(well, it *was* python until i bribed him to re-write it for me...) 
+(well, it *was* python until I bribed him to re-write it for me...) 
 
 It is located on [ his GitHub page](https://github.com/a-rey/bitflip/tree/master/keylogger "Aaron's Keylogger")
 
