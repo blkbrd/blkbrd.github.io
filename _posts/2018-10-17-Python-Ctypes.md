@@ -6,7 +6,7 @@ date: 2018-10-17
 
 The ctypes module lets us load DLL files as libraries where we can ID load address and text segment!
 <p>
-<code>
+<script>
   from ctypes import *
   import sys
   import string
@@ -15,6 +15,6 @@ The ctypes module lets us load DLL files as libraries where we can ID load addre
   loadAddr = kernel32.GetModuleHandleA(sys.argv[1])
   print hex(loadAddr)
   print hex(loadAddr + 0x1000)
-</code>
+</script>
 
 I learned about ctypes at SANS Exploit Writing class
