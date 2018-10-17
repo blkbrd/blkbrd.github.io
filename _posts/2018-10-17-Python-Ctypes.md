@@ -16,5 +16,5 @@ The ctypes module lets us load DLL files as libraries where we can ID load addre
   print hex(loadAddr)
   print hex(loadAddr + 0x1000)
 </script>
-
+<p>
 I learned about ctypes at SANS Exploit Writing class
