@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "working with log2timeline csv"
+title: "Working with log2timeline csv"
 date: 2017-09-29
 ---
 
