@@ -1,4 +1,8 @@
-
+---
+layout: post
+title: "GDB Cheat Sheet"
+date: 2018-10-18
+---
 
 GDB Cheat Sheet from Rendition infosec 
 
