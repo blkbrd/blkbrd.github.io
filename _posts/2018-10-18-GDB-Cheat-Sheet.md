@@ -4,7 +4,7 @@ title: "GDB Cheat Sheet"
 date: 2018-10-18
 ---
 
-GDB Cheat Sheet from Rendition infosec https://www.renditioninfosec.com/
+GDB Cheat Sheet from [Rendition Infosec](https://www.renditioninfosec.com/ "Rendition Infosec")
 
 Inspect the stack, displaying 20 double words at the ESP register
 <code> x/20xw $esp </code>
