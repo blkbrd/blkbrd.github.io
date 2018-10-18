@@ -18,23 +18,30 @@ Display a string at a given address
 
 <code> x/s 0x41414141 </code>
 
-Set a breakpoint at a givven address
-<p><code> break *0x41414141 </code>
+Set a breakpoint at a given address
+
+<code> break *0x41414141 </code>
 
 List breakpoints
-<p><code> info break </code>
+
+<code> info break </code>
 
 Delete a breakpoint
+
 <code> del BREAKPOINT_NUMBER </code>
 
 Disassemble a function
+
 <code> disass FUNCTION </code>
 
 Display register contents
+
 <code> info reg </code>
 
 Run with input from Python
+
 <code> run > >(python -c 'print "A" * 16') </code>
 
 Print a register
+
 <code> print $esp </code>
