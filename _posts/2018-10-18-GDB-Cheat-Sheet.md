@@ -4,7 +4,7 @@ title: "GDB Cheat Sheet"
 date: 2018-10-18
 ---
 
-GDB Cheat Sheet from Rendition infosec 
+GDB Cheat Sheet from Rendition infosec https://www.renditioninfosec.com/
 
 Inspect the stack, displaying 20 double words at the ESP register
 <code> x/20xw $esp </code>
@@ -27,3 +27,11 @@ Delete a breakpoint
 Disassemble a function
 <code> disass <func> </code>
 
+Display register contents
+<code> info reg </code>
+
+Run with input from Python
+<code> run > >(python -c 'print "A" * 16') </code>
+
+Print a register
+<code> print $esp </code>
