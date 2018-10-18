@@ -45,3 +45,7 @@ Run with input from Python
 Print a register
 
 <code> print $esp </code>
+
+Examines instruction at address and prints 
+
+<code> x/i ADDRESS </code>
