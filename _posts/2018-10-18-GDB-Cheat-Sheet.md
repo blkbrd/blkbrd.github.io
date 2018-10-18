@@ -7,22 +7,23 @@ date: 2018-10-18
 GDB Cheat Sheet from Rendition infosec 
 
 Inspect the stack, displaying 20 double words at the ESP register
-x/20xw $esp
+<code> x/20xw $esp </code>
 
 Inspect the stack, displaying 32 bytes at the ESP register
-x/32b $esp
+<code> x/32b $esp </code>
 
 Display a string at a given address
-x/s <addr>
+<code> x/s <addr> </code>
 
 Set a breakpoint at a givven address
-break *0x<rest of the address>
+<code> break *0x<rest of the address> </code>
 
 List breakpoints
-info break
+<code> info break </code>
 
 Delete a breakpoint
-del <breakpoint number>
+<code> del <breakpoint number> </code>
 
 Disassemble a function
-disass <func>
+<code> disass <func> </code>
+
