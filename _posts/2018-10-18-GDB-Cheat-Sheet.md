@@ -13,19 +13,19 @@ Inspect the stack, displaying 32 bytes at the ESP register
 <code> x/32b $esp </code>
 
 Display a string at a given address
-<code> x/s <addr> </code>
+<code> x/s 0x41414141 </code>
 
 Set a breakpoint at a givven address
-<code> break *0x<rest of the address> </code>
+<code> break *0x<41414141 </code>
 
 List breakpoints
 <code> info break </code>
 
 Delete a breakpoint
-<code> del <breakpoint number> </code>
+<code> del BREAKPOINT_NUMBER </code>
 
 Disassemble a function
-<code> disass <func> </code>
+<code> disass FUNCTION </code>
 
 Display register contents
 <code> info reg </code>
