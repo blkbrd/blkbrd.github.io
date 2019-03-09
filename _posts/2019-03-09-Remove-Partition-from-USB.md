@@ -1,3 +1,9 @@
+---
+layout: post
+title: "Remove Partition from USB"
+date: 2019-03-09
+---
+
 Today I learned how to remove partition from a thumb drive (which I was way too excited about). 
 open a command prompt, run <code>diskpart</code>, then <code>list disk</code>, select your USB thumbdrive with <code>select disk X</code> 
 (where X cooresponds to your device. check out the size to verify you're picking the right one), 
