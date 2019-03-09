@@ -10,9 +10,7 @@ Open a command prompt, run <code>diskpart</code>, then <code>list disk</code>, s
 (where X cooresponds to your device. check out the size to verify you're picking the right one), 
 look at existing partitions with <code>list partition</code>. 
 <p>
-From here you can either go through and delete what you want or use the check 
-out existing partitions with <code>list partition</code>. 
-<p>From here you can either go through and delete what you want or use the 
+<p>From here you can either go through and delete what you want using <code>select</code> and <code> delete </code> commands or use the 
 <code>clean</code> if you dont want to select each partition. 
 <p>Once you're done with that, use <code>create partition primary</code> and youre
 done! Exit with the <code>exit</code> command. 
