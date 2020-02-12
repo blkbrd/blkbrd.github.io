@@ -9,3 +9,4 @@ I had some issues in a CTF connecting to a remove server using Python sockets, b
 The challenge would provide you some numbers and ask you to do operations on it. 
 
 see code here: 
+https://github.com/blkbrd/CTF-Scripts/blob/master/prog1.py
